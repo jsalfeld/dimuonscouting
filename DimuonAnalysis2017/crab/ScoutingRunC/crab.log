@@ -1,0 +1,139 @@
+DEBUG 2017-11-07 15:40:23,568: 	 Executing command: 'status'
+DEBUG 2017-11-07 15:40:23,569: 	 Found CRAB cache file /afs/cern.ch/user/j/jsalfeld/.crab3
+DEBUG 2017-11-07 15:40:23,578: 	 Checking credentials
+DEBUG 2017-11-07 15:40:23,579: 	 Found proxy file /tmp/x509up_u58490
+DEBUG 2017-11-07 15:40:23,580: 	 Getting proxy life time left
+DEBUG 2017-11-07 15:40:24,184: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u58490 -timeleft
+ output : 40115
+
+ error: 
+ retcode : 0
+DEBUG 2017-11-07 15:40:24,692: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u58490 -actimeleft
+ output : 40115
+
+ error: 
+ retcode : 0
+DEBUG 2017-11-07 15:40:24,692: 	 Proxy valid for 11:08:35 hours
+ERROR 2017-11-07 15:40:24,694: 	 Cannot find .requestcache file in CRAB project directory /afs/cern.ch/work/j/jsalfeld/MIT/CMSSW_9_2_1/src/ScoutingAnalysis/DimuonAnalysis/crab/ScoutingRunC/crab_20171107_150252
+ERROR 2017-11-07 15:40:24,694: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 38, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 321, in __init__
+    self.loadLocalCache(proxyOptsSetPlace)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 450, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/cern.ch/work/j/jsalfeld/MIT/CMSSW_9_2_1/src/ScoutingAnalysis/DimuonAnalysis/crab/ScoutingRunC/crab_20171107_150252
+DEBUG 2017-11-07 15:45:10,384: 	 Executing command: 'status'
+DEBUG 2017-11-07 15:45:10,404: 	 Found CRAB cache file /afs/cern.ch/user/j/jsalfeld/.crab3
+DEBUG 2017-11-07 15:45:10,430: 	 Checking credentials
+DEBUG 2017-11-07 15:45:10,433: 	 Found proxy file /tmp/x509up_u58490
+DEBUG 2017-11-07 15:45:10,433: 	 Getting proxy life time left
+DEBUG 2017-11-07 15:45:11,256: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u58490 -timeleft
+ output : 39828
+
+ error: 
+ retcode : 0
+DEBUG 2017-11-07 15:45:11,968: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u58490 -actimeleft
+ output : 39828
+
+ error: 
+ retcode : 0
+DEBUG 2017-11-07 15:45:11,968: 	 Proxy valid for 11:03:48 hours
+ERROR 2017-11-07 15:45:11,969: 	 Cannot find .requestcache file in CRAB project directory /afs/cern.ch/work/j/jsalfeld/MIT/CMSSW_9_2_1/src/ScoutingAnalysis/DimuonAnalysis/crab/ScoutingRunC/crab_20171107_150252
+ERROR 2017-11-07 15:45:11,969: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 38, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 321, in __init__
+    self.loadLocalCache(proxyOptsSetPlace)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 450, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/cern.ch/work/j/jsalfeld/MIT/CMSSW_9_2_1/src/ScoutingAnalysis/DimuonAnalysis/crab/ScoutingRunC/crab_20171107_150252
+DEBUG 2017-11-07 17:22:35,215: 	 Executing command: 'status'
+DEBUG 2017-11-07 17:22:35,217: 	 Found CRAB cache file /afs/cern.ch/user/j/jsalfeld/.crab3
+DEBUG 2017-11-07 17:22:35,228: 	 Checking credentials
+DEBUG 2017-11-07 17:22:35,228: 	 Found proxy file /tmp/x509up_u58490
+DEBUG 2017-11-07 17:22:35,229: 	 Getting proxy life time left
+DEBUG 2017-11-07 17:22:36,709: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u58490 -timeleft
+ output : 33983
+
+ error: 
+ retcode : 0
+DEBUG 2017-11-07 17:22:38,048: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u58490 -actimeleft
+ output : 33982
+
+ error: 
+ retcode : 0
+DEBUG 2017-11-07 17:22:38,049: 	 Proxy valid for 09:26:23 hours
+ERROR 2017-11-07 17:22:38,052: 	 Cannot find .requestcache file in CRAB project directory /afs/cern.ch/work/j/jsalfeld/MIT/CMSSW_9_2_1/src/ScoutingAnalysis/DimuonAnalysis/crab/ScoutingRunC/crab_20171107_150252
+ERROR 2017-11-07 17:22:38,052: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 38, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 321, in __init__
+    self.loadLocalCache(proxyOptsSetPlace)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 450, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/cern.ch/work/j/jsalfeld/MIT/CMSSW_9_2_1/src/ScoutingAnalysis/DimuonAnalysis/crab/ScoutingRunC/crab_20171107_150252
+DEBUG 2017-11-07 19:57:27,103: 	 Executing command: 'status'
+DEBUG 2017-11-07 19:57:27,104: 	 Found CRAB cache file /afs/cern.ch/user/j/jsalfeld/.crab3
+DEBUG 2017-11-07 19:57:27,123: 	 Checking credentials
+DEBUG 2017-11-07 19:57:27,124: 	 Proxy file /tmp/x509up_u58490 not found
+DEBUG 2017-11-07 19:57:27,124: 	 Creating new proxy for 24:00 hours with VO group '' and VO role 'NULL'.
+DEBUG 2017-11-07 19:57:32,949: 	 Executing : 
+ command : voms-proxy-init -voms cms:/cms -valid 24:00 -rfc
+ output : None
+ error: None
+ retcode : 0
+DEBUG 2017-11-07 19:57:33,454: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u58490 -timeleft
+ output : 86398
+
+ error: 
+ retcode : 0
+DEBUG 2017-11-07 19:57:33,958: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u58490 -actimeleft
+ output : 86398
+
+ error: 
+ retcode : 0
+DEBUG 2017-11-07 19:57:34,464: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u58490 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2017-11-07 19:57:34,464: 	 Proxy created.
+ERROR 2017-11-07 19:57:34,465: 	 Cannot find .requestcache file in CRAB project directory /afs/cern.ch/work/j/jsalfeld/MIT/CMSSW_9_2_1/src/ScoutingAnalysis/DimuonAnalysis/crab/ScoutingRunC/crab_20171107_150252
+ERROR 2017-11-07 19:57:34,466: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 38, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 321, in __init__
+    self.loadLocalCache(proxyOptsSetPlace)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1707.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 450, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/cern.ch/work/j/jsalfeld/MIT/CMSSW_9_2_1/src/ScoutingAnalysis/DimuonAnalysis/crab/ScoutingRunC/crab_20171107_150252
